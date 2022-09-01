@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Roboto&display=swap');
 
-*
+*{
+  margin-left: auto;
+  margin-right: auto;
+
+}
   ul {
     list-style-type: none;
     margin: 0;
@@ -10,7 +14,7 @@
   
   li {
     float: left;
-    width: 33%;
+    width: 50%;
     height: 100px;
   }
   img{
@@ -23,14 +27,14 @@
     font-weight: bold;
     font-family: "Lobster", cursive;
     font-size: 40px;
-    margin-left: 20px;
+    margin-left: 90px;
     margin-top: 30px;
     width: 60px;
     color: rgb(9, 9, 99);
   }
  
 .logo{
-  margin-left: 100px;
+  margin-left: 500px;
   margin-top: 35px;
   width: 100px;
   height: 40px;
@@ -43,6 +47,13 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+#h1{
+  color: rgba(32, 172, 172, 0.863);
+  font-size: 40px;
+  height: 100px;
+  width:400px;
+  text-align: center;
+}
   
  
 
