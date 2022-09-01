@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Roboto&display=swap');
+
+*
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  li {
+    float: left;
+    width: 33%;
+    height: 100px;
+  }
+  img{
+    height: 100px;
+  }
+  #logoimg{
+    padding: 5px;
+  }
+  #dada{
+    font-weight: bold;
+    font-family: "Lobster", cursive;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 60px;
+    color: rgb(9, 9, 99);
+  }
+ 
+.logo{
+  margin-left: 100px;
+  margin-top: 35px;
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border-color: black;
+  border-radius: 5px;
+  color: rgb(9, 9, 99);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+  
+ 
+
+ 
