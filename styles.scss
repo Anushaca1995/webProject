@@ -61,12 +61,34 @@
 #h2{
   color: rgba(71, 10, 91, 0.863);
   font-size: 30px;
-  height: 100px;
+  height: 90px;
   width:400px;
   font-family: "Roboto", sans-serif;
   text-align: center;
 }
+#h3{
+  color: rgba(32, 172, 172, 0.863);
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+p{
+  height: 100px;
+  width:400px;
+  text-align: center;
+  font-size: 15px;
+}
   
- 
-
+ #button2{
+    margin-left: 520px;
+    text-align: center;
+    width: 170px;
+    height: 40px;
+    background-color: rgb(35, 13, 113);
+    border-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+ }
  
