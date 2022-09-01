@@ -6,9 +6,11 @@
 
 }
   #img1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     height: 600px;
-    margin-left: 480px;
-    margin-top: 85px;
   }
   #logoimg{
     padding: 5px;
@@ -96,8 +98,6 @@
  
  .para3{
     font-weight: bold;
-    font-size: 18px;
-    height:30px;
  }
 
  .imgp1{
@@ -105,13 +105,17 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  width:30%;
+  width:48%;
   text-align: left;
+  font-size: 18px;
+  
+ }
+ .paraim{
+  width: 38%;
  }
  
  @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
   #para2{
       width: 100%;
     }
