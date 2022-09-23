@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  background-color: pink;
+}
+body .flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+body .card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  background-color: white;
+}
+body .card--border-green {
+  border: 2px solid green;
+}
+body .card .card__image {
+  height: auto;
+  width: 100%;
+}
+body .card .card__body {
+  padding: 20px;
+  background-color: white;
+}
+body .card .card__body p {
+  margin: 5px;
+  font-size: 10px;
+}
+body .card .card__header .card__button {
+  font-size: 8px;
+  padding: 5px;
+  text-decoration: none;
+  border: none;
+  border-radius: 20px;
+}
+body .card .card__header .card__button--sale:hover {
+  background-color: green;
+}
+body .card .card__buttons {
+  margin-top: 20px;
+}
+body .card .card__buttons .card__button {
+  font-size: 16px;
+  padding: 10px;
+  text-decoration: none;
+  margin-right: 20px;
+  width: 120px;
+}
+body .card .card__buttons .card__button--book {
+  background-color: black;
+  color: white;
+  border: none;
+}
+body .card .card__buttons .card__button--info {
+  background-color: white;
+  border: 0.75px solid black;
+}/*# sourceMappingURL=style.css.map */

@@ -25,7 +25,7 @@
   margin-left: 90px;
   margin-top: 30px;
   width: 60px;
-  color: #090963;
+  color: rgb(9, 9, 99);
 }
 
 #logodiv {
@@ -45,7 +45,7 @@
   background-color: white;
   border-color: black;
   border-radius: 5px;
-  color: #090963;
+  color: rgb(9, 9, 99);
   font-weight: bold;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
@@ -88,13 +88,13 @@
   width: 300px;
   text-align: center;
   font-size: 22px;
-  color: #230d71;
+  color: rgb(35, 13, 113);
 }
 
 #button2 {
   display: flex;
   flex-wrap: wrap;
-  background-color: #230d71;
+  background-color: rgb(35, 13, 113);
   border-color: black;
   border-radius: 5px;
   color: white;
@@ -124,4 +124,4 @@
   body #para2 {
     width: 100%;
   }
-}
+}/*# sourceMappingURL=styles.css.map */

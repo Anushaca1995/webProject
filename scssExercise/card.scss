@@ -1,0 +1,84 @@
+@use "./__variables"as *;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    background-color: pink;
+
+    .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        background-color: white;
+
+        &--border-green {
+            border: 2px solid green;
+        }
+
+        .card__image {
+            height: auto;
+            width: 100%;
+        }
+
+        .card__body {
+            padding: 20px;
+            background-color: white;
+
+            p {
+                margin: 5px;
+                font-size: 10px;
+
+            }
+        }
+
+        .card__header {
+            .card__button {
+                font-size: 8px;
+                padding: 5px;
+                text-decoration: none;
+                border: none;
+                border-radius: 20px;
+
+                &--sale:hover {
+                    background-color: green;
+                }
+            }
+        }
+
+        .card__buttons {
+            margin-top: 20px;
+
+            .card__button {
+                font-size: 16px;
+                padding: 10px;
+                text-decoration: none;
+                margin-right: 20px;
+                width: 120px;
+
+                &--book {
+                    background-color: $book__bgcolor;
+                    color: white;
+                    border: none;
+                }
+
+                &--info {
+                    background-color: white;
+                    border: 0.75px solid black;
+                }
+            }
+        }
+
+
+
+    }
+}
